@@ -1,0 +1,335 @@
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'futurak';
+    src: url('../fonts/futurak.ttf');
+}
+
+@font-face {
+    font-family: 'butler';
+    src: url('../Fonts/Butler_Regular.otf');
+}
+
+
+/* red green white black */
+
+:root {
+    --red: #ed1c24;
+    --green: #28a745;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #0f0f0f;
+}
+
+
+/* navbar started */
+.logo-img {
+    width: 165px;
+}
+
+.nav-items {
+    font-size: 1.6rem;
+}
+
+.franchise-btn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.order-btn {
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    color: var(--red);
+}
+
+.icon-bg {
+    background-color: var(--white);
+    padding: 5px 7px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+/* navbar ended */
+
+
+/* our-brands started */
+.heading {
+    margin: 30px;
+}
+
+.heading-brand{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.para-brand{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #ffffffb3;
+}
+.futurak-font{
+    font-family: futurak;
+    font-size: 5.2rem;
+}
+
+.butler-font{
+    font-family: butler;
+    font-size: 6.2rem;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+.order-brand-btn-3{
+    background-color: transparent;
+    border: 1px solid #ffffffb3;
+    color: var(--white);
+    padding: 11px 20px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.order-brand-btn-1{
+    background-color: transparent;
+    border: 1px solid #ffffffb3;
+    color: var(--white);
+    padding: 11px 50px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+
+
+
+.brand-image{
+    width: 260px;
+    border-radius: 3px;
+}
+/* our-brands ended */
+
+/* our franchise start */
+
+.hero-sec{
+    background-color: #0f0f0f;
+}
+
+.franchise-dd{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: #ffffffb3;
+}
+
+.futurak-font-2{
+    font-family: futurak;
+    font-size: 3.6rem;
+}
+
+.pera-1{
+    color: var(--red);
+    font-size: 2.6rem;
+}
+.pera-2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.6rem;
+}
+
+.pera-3{
+    font-family: 'Courier New', Courier, ;
+    font-size: 1.6rem;
+    color: #ffffffb3;
+    
+}
+
+.direction-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: var(--white);
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* our franchise end */
+
+/* express franchise start */
+
+.butler-font-exp-frnch{
+    font-family: butler;
+    font-size: 5.6rem;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+
+.futurak-font-exp-frch{
+    font-family: futurak;
+    font-size: 2.6rem;
+}
+
+.exp-pera1{
+    color: var(--red);
+    font-size: 1.6rem;
+}
+.exp-pera2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6rem;
+}
+
+.exp-pera3{
+    font-family: 'Courier New', Courier, ;
+    font-size: 1.2rem;
+    color: #ffffffb3;
+    
+}
+
+
+/* express franchise end */
+
+/* viallage franchise start */
+
+.vilage-frch >img{
+
+width:  100%;
+height: 90%;
+}
+
+.direction-btn-vilage {
+    background-color: var(--green);
+    border: 1px solid white;
+    color: var(--white);
+    padding: 15px 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+
+
+/* vilage franchise end */
+
+/* express franchise start  */
+
+.opning-soon{
+    text-decoration: none;
+    font-size: 3.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.opn-soon{
+    background-color: white;
+    width: 350px;
+    height: 250px;
+
+}
+
+.pera-opn-soon{
+    color: var(--red);
+    font-size: 1.4rem;
+}
+
+.font-snp{
+    color: var(--black);
+    font-size: 2.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Exp-spn{
+    color:var(--black);
+    font-family: 'Times New Roman';
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+/* express franchise end */
+/* social feed start */
+.social-feed{
+    text-align: center;
+    padding-top: 70px;
+    color: #212529;
+    font-size: 3.6rem;
+    font-family:'butler';
+}
+
+
+
+/* social feed end */
+
+/* footer start */
+
+.pera-footer-txt{
+    font-size: 1.4rem;
+    color: rgb(173 183 183);
+}
+
+.site-links >h3{
+    font-size: 1.9rem;
+    font-family: 'butler';
+    font-weight: normal;
+    color: var(--white);
+
+
+}
+
+.site-links ul li{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:rgb(173 183 183) ;
+    display: block;
+    padding-top: 20px;
+    
+    
+    font-family: 'serif';
+    
+    
+
+}
+
+li{
+    text-decoration: none;
+}
+
+.footer-social-links{
+    border: 1px solid wheat;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--red);
+    text-align: center;
+    padding-top:8px;
+    font-size: large;
+}
+
+.copy-right{
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 30px 0  0  20px;
+    gap: 700px;
+}
+
+
+
+/* footer end */
+
+.image-content img {
+    width: 36rem; 
+    height: 25rem; 
+    object-fit: cover;
+}
